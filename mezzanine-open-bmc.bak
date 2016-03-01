@@ -602,4 +602,38 @@ Text Notes 850  4250 0    60   ~ 0
 BMC Power and Reset Switches
 Text Notes 3550 4050 0    60   ~ 0
 BB UART1 to BMC UART0
+Text GLabel 3850 4400 0    60   BiDi ~ 0
+I2C0_SDA
+Text GLabel 3850 4250 0    60   BiDi ~ 0
+I2C0_SCL
+Text GLabel 4300 4400 2    60   BiDi ~ 0
+I2C0_SDA_BMC
+Text GLabel 4300 4250 2    60   BiDi ~ 0
+I2C0_SCL_BMC
+Wire Wire Line
+	3850 4250 4300 4250
+Wire Wire Line
+	4300 4400 3850 4400
+Wire Notes Line
+	5000 4100 3350 4100
+Text Notes 3700 4600 0    60   ~ 0
+BB I2C0 to BMC I2C0
+Text GLabel 3850 4800 0    60   Input ~ 0
+GPIO_A
+Text GLabel 3850 4950 0    60   Input ~ 0
+GPIO_B
+Text GLabel 4350 4800 2    60   Input ~ 0
+GPIO_A_BMC
+Text GLabel 4350 4950 2    60   Input ~ 0
+GPIO_B_BMC
+Wire Wire Line
+	3850 4800 4350 4800
+Wire Wire Line
+	4350 4950 3850 4950
+Wire Notes Line
+	3350 4650 5000 4650
+Text Notes 3550 5150 0    60   ~ 0
+BB GPIO_A to BMC GPIO_A
+Wire Notes Line
+	3350 5200 5000 5200
 $EndSCHEMATC

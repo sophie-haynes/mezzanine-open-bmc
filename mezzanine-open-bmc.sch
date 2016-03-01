@@ -636,4 +636,18 @@ Text Notes 3550 5150 0    60   ~ 0
 BB GPIO_A to BMC GPIO_A
 Wire Notes Line
 	3350 5200 5000 5200
+Text GLabel 4350 5350 2    60   Input ~ 0
+GPIO_C_BMC
+Text GLabel 3850 5350 0    60   Input ~ 0
+PWR_BTN_N
+Text GLabel 3850 5500 0    60   Input ~ 0
+RST_BTN_N
+Text GLabel 4350 5500 2    60   Input ~ 0
+GPIO_D_BMC
+Wire Wire Line
+	4350 5350 3850 5350
+Wire Wire Line
+	3850 5500 4350 5500
+Text Notes 3550 5700 0    60   ~ 0
+BB PWR/RST to BMC GPIO 
 $EndSCHEMATC
