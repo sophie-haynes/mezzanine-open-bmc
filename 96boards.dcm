@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +1V8_BMC
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

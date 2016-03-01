@@ -1,4 +1,4 @@
-update=Thursday, 25 February 2016 'amt' 11:08:00
+update=Tuesday, 01 March 2016 'pmt' 15:11:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -67,5 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=96boards
-[general]
-version=1
+LibName31=BMC
