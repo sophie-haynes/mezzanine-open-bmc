@@ -143,7 +143,7 @@ I2C0_SDA_BMC
 Text GLabel 3950 1800 0    60   BiDi ~ 0
 I2C0_SCL_BMC
 Text GLabel 3950 2200 0    60   Input ~ 0
-GPIO_A_BMC
+GPIO_A_BB_BMC
 Text GLabel 3950 1400 0    60   Input ~ 0
 UART0_RX_BMC
 Text GLabel 4700 1200 2    60   Input ~ 0
@@ -163,7 +163,7 @@ GPIO_K_BMC
 Text GLabel 3950 1700 0    60   Input ~ 0
 UART1_RX_BMC
 Text GLabel 4700 2200 2    60   Input ~ 0
-GPIO_B_BMC
+GPIO_B_BB_BMC
 Text GLabel 4700 1400 2    60   Input ~ 0
 SPIO_SCL_BMC
 Text GLabel 4700 1500 2    60   Input ~ 0
@@ -292,9 +292,9 @@ UART0_TX
 Text GLabel 1500 1200 0    60   Input ~ 0
 UART0_CTS
 Text GLabel 1500 2200 0    60   Input ~ 0
-GPIO_A
+GPIO_A_BB_BMC
 Text GLabel 2250 2200 2    60   Input ~ 0
-GPIO_B
+GPIO_B_BB_BMC
 Text GLabel 1500 1600 0    60   Input ~ 0
 UART1_TX
 Text GLabel 1500 1700 0    60   Input ~ 0
@@ -402,25 +402,15 @@ Text GLabel 4300 4250 2    60   BiDi ~ 0
 I2C0_SCL_BMC
 Text Notes 3700 4600 0    60   ~ 0
 BB I2C0 to BMC I2C0
-Text GLabel 3850 4800 0    60   Input ~ 0
-GPIO_A
-Text GLabel 3850 4950 0    60   Input ~ 0
-GPIO_B
 Text GLabel 4350 4800 2    60   Input ~ 0
-GPIO_A_BMC
-Text GLabel 4350 4950 2    60   Input ~ 0
-GPIO_B_BMC
-Text Notes 3550 5150 0    60   ~ 0
-BB GPIO_A to BMC GPIO_A
-Text GLabel 4350 5350 2    60   Input ~ 0
 GPIO_C_BMC
-Text GLabel 3850 5350 0    60   Input ~ 0
+Text GLabel 3850 4800 0    60   Input ~ 0
 PWR_BTN_N
-Text GLabel 3850 5500 0    60   Input ~ 0
+Text GLabel 3850 4950 0    60   Input ~ 0
 RST_BTN_N
-Text GLabel 4350 5500 2    60   Input ~ 0
+Text GLabel 4350 4950 2    60   Input ~ 0
 GPIO_D_BMC
-Text Notes 3550 5700 0    60   ~ 0
+Text Notes 3550 5150 0    60   ~ 0
 BB PWR/RST to BMC GPIO 
 $Comp
 L +1V8 #PWR2
@@ -798,18 +788,14 @@ Wire Wire Line
 	4300 4400 3850 4400
 Wire Notes Line
 	5000 4100 3350 4100
-Wire Wire Line
-	3850 4800 4350 4800
-Wire Wire Line
-	4350 4950 3850 4950
 Wire Notes Line
 	3350 4650 5000 4650
 Wire Notes Line
 	3350 5200 5000 5200
 Wire Wire Line
-	4350 5350 3850 5350
+	4350 4800 3850 4800
 Wire Wire Line
-	3850 5500 4350 5500
+	3850 4950 4350 4950
 Wire Wire Line
 	2900 2900 2900 2500
 Wire Wire Line
