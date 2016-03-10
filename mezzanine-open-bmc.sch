@@ -799,8 +799,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 2900 2900 2500
 Wire Wire Line
-	800  5650 800  4650
-Wire Wire Line
 	800  4650 1050 4650
 Wire Wire Line
 	1050 4650 1050 4850
@@ -974,4 +972,19 @@ F 3 "" H 7850 1700 50  0000 C CNN
 	1    7850 1700
 	0    1    1    0   
 $EndComp
+$Comp
+L R R?
+U 1 1 56E144A3
+P 800 5000
+F 0 "R?" V 880 5000 50  0000 C CNN
+F 1 "22R" V 800 5000 50  0000 C CNN
+F 2 "" V 730 5000 50  0000 C CNN
+F 3 "" H 800 5000 50  0000 C CNN
+	1    800  5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4650 800  4850
+Wire Wire Line
+	800  5150 800  5650
 $EndSCHEMATC
