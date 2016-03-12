@@ -318,8 +318,8 @@ F1 "Led_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- CP*
- SM*
+ LED-*
+ LED_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0  -30 -40  -30 40 N

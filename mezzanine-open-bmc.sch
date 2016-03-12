@@ -782,10 +782,6 @@ Wire Wire Line
 	3850 3700 4300 3700
 Wire Wire Line
 	3850 3850 4300 3850
-Wire Wire Line
-	3850 4800 4300 4800
-Wire Wire Line
-	4300 4950 3850 4950
 Wire Notes Line
 	5000 4100 3350 4100
 Wire Notes Line
@@ -1057,4 +1053,47 @@ Wire Wire Line
 	2600 5600 2600 5550
 Wire Wire Line
 	2600 5550 3100 5550
+Wire Wire Line
+	3450 5450 3350 5450
+Wire Wire Line
+	3350 5450 3350 5550
+Connection ~ 3350 5550
+$Comp
+L +1V8_BMC #PWR?
+U 1 1 56E43371
+P 6200 5650
+F 0 "#PWR?" H 6200 5500 50  0001 C CNN
+F 1 "+1V8_BMC" H 6200 5790 50  0000 C CNN
+F 2 "" H 6200 5650 60  0000 C CNN
+F 3 "" H 6200 5650 60  0000 C CNN
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5650 6500 5650
+Wire Wire Line
+	6500 5650 6500 5250
+Wire Wire Line
+	6500 5250 6300 5250
+Connection ~ 6200 5650
+$Comp
+L R R?
+U 1 1 56E4386C
+P 6150 5250
+F 0 "R?" V 6230 5250 50  0000 C CNN
+F 1 "R" V 6150 5250 50  0000 C CNN
+F 2 "" V 6080 5250 50  0000 C CNN
+F 3 "" H 6150 5250 50  0000 C CNN
+	1    6150 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 5250 5000 5250
+Wire Wire Line
+	5000 5250 5000 5450
+Connection ~ 5000 5450
+Wire Wire Line
+	5000 5550 5000 5650
+Connection ~ 5000 5650
+Connection ~ 5000 5550
 $EndSCHEMATC
