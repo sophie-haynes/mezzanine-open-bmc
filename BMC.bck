@@ -12,6 +12,11 @@ $CMP +5V_BMC
 K POWER, PWR
 $ENDCMP
 #
+$CMP 22R
+D Resistor
+K R DEV
+$ENDCMP
+#
 $CMP 90Ω
 D Resistor
 K R DEV
