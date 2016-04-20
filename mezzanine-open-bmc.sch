@@ -157,9 +157,9 @@ GPIO_E_BMC
 Text GLabel 3900 2400 0    60   Input ~ 0
 GPIO_G_BMC
 Text GLabel 3900 2500 0    60   Input ~ 0
-GPIO_I_BMC
+GPIO_I
 Text GLabel 3900 2600 0    60   Input ~ 0
-GPIO_K_BMC
+GPIO_K
 Text GLabel 3900 1600 0    60   Input ~ 0
 UART1_RX_BMC
 Text GLabel 4650 2100 2    60   Input ~ 0
@@ -187,9 +187,9 @@ GPIO_F_BMC
 Text GLabel 4650 2400 2    60   Input ~ 0
 GPIO_H_BMC
 Text GLabel 4650 2500 2    60   Input ~ 0
-GPIO_J_BMC
+GPIO_J
 Text GLabel 4650 2600 2    60   Input ~ 0
-GPIO_L_BMC
+GPIO_L
 $Comp
 L GND #PWR07
 U 1 1 55BEAA68
@@ -1193,24 +1193,6 @@ F 3 "" H 3850 6150 50  0000 C CNN
 $EndComp
 Text Notes 4450 7600 0    60   ~ 0
 BMC PWR LED's
-Text GLabel 4800 3400 0    60   Input ~ 0
-GPIO_I
-Text GLabel 4800 3650 0    60   Input ~ 0
-GPIO_K
-Text GLabel 5100 3400 2    60   Input ~ 0
-GPIO_I_BMC
-Text GLabel 5100 3650 2    60   Input ~ 0
-GPIO_K_BMC
-Text GLabel 4800 3900 0    60   Input ~ 0
-GPIO_J
-Text GLabel 4800 4150 0    60   Input ~ 0
-GPIO_L
-Text GLabel 5100 3900 2    60   Input ~ 0
-GPIO_J_BMC
-Text GLabel 5100 4150 2    60   Input ~ 0
-GPIO_L_BMC
-Text Notes 4700 4400 0    60   ~ 0
-Connect GPIO
 $Comp
 L FT230XS U1
 U 1 1 56D5CA53
@@ -1886,14 +1868,6 @@ Wire Wire Line
 	3600 4500 3600 5250
 Wire Notes Line
 	3650 5500 3650 7700
-Wire Wire Line
-	4800 3400 5100 3400
-Wire Wire Line
-	4800 3650 5100 3650
-Wire Wire Line
-	4800 3900 5100 3900
-Wire Wire Line
-	4800 4150 5100 4150
 Wire Notes Line
 	4500 4500 5700 4500
 Wire Wire Line
@@ -1986,8 +1960,6 @@ Wire Notes Line
 	5650 4500 7400 4500
 Wire Notes Line
 	7400 4500 7400 5300
-Wire Notes Line
-	4350 4400 4350 3250
 Wire Notes Line
 	5850 3200 5850 4350
 Text Notes 5000 6250 0    60   ~ 0
