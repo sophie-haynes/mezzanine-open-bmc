@@ -1840,4 +1840,6 @@ U 572722B0
 F0 "I2C_Grove_Conn" 60
 F1 "I2C_Grove.sch" 60
 $EndSheet
+Text Notes 4550 4800 0    60   ~ 0
+FTDI Regulator
 $EndSCHEMATC
